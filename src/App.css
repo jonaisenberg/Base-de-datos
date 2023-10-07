@@ -1,0 +1,26 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    display: grid;
+    gap: 20px;
+    align-items: baseline;
+}
+
+.listado {
+    height: 40%;
+}
+
+.formulario {
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
